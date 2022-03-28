@@ -1,0 +1,22 @@
+#section1{
+    background: url(../img/Background-page2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#section1 .container .content{
+    padding-top: 5rem;
+}
+
+
+
+
+@media(max-width:1400px){
+    #section1 .container h1,p{
+        color: #fff;
+    }
+@media(min-width:768px){
+    .news-input{
+        width: 50%;
+    }
+}
+}
